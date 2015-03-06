@@ -1,0 +1,88 @@
+$orange-dark-darkPrimaryColor: #E64A19;
+$orange-primaryColor: #FF5722;
+$orange-light-lightPrimaryColor: #FFCCBC;
+$white-textPrimaryColor: #FFFFFF;
+$blue-accentColor: #FF9800;
+$red-alertColor: #e51c23;
+$green-successColor: #259b24;
+$darkest-primaryTextColor: #444;
+$lighter-secondaryTextColor: #727272;
+$lightest-dividerColor: #B6B6B6;
+
+.contain-to-grid
+{
+	background-color: $orange-primaryColor;
+}
+
+.jetti-logo
+{
+	font-family: $logo-font;
+	color: $orange-primaryColor;
+	letter-spacing: -.025em;
+}
+
+.button
+{
+	background-color: $orange-primaryColor;
+
+	&:hover
+	{
+		background-color: $orange-dark-darkPrimaryColor;
+	}
+}
+
+.logo
+{
+font-family: $logo-font;
+}
+
+main
+{
+margin-top: 2vh;
+}
+
+h1, h2, h3, p
+{
+color: $darkest-primaryTextColor;
+}
+
+h1
+{
+	font-weight: 900;
+}
+
+.global-nav
+{
+background-color: $orange-primaryColor;
+}
+
+.global-nav-button
+{
+color: $white-textPrimaryColor;
+padding: 0 12px;
+transition: background-color .25s ease;
+background-color: $orange-primaryColor;
+font-weight: 100;
+}
+
+.global-nav-button:hover
+{
+transition: background-color .25s ease;
+background-color: $orange-dark-darkPrimaryColor;
+color: $white-textPrimaryColor;
+}
+
+.global-nav-button:active
+{
+transition: background-color .25s ease;
+background-color: $orange-dark-darkPrimaryColor;
+color: $white-textPrimaryColor;
+}
+
+label
+{
+font-weight: bold;
+color: $darkest-primaryTextColor;
+}
+
+
