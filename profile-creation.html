@@ -15,7 +15,7 @@
       <nav class="global-nav top-bar" data-topbar role="navigation">
         <a class="left global-nav-button logo" href="index.html">Jetti</a>
         <a class="right global-nav-button" href="">Help</a>
-        <a class="right global-nav-button" href="profile-creation.html">Profile</a>
+        <a class="right global-nav-button active" href="profile-creation.html">Profile</a>
       </nav>
     </div>
 
@@ -30,11 +30,25 @@
         <div class="small-12 medium-8 medium-centered columns panel radius">
           <p>Great. So, we have some info on you already, but take a second to make sure its correct.</p>
           <form>
-            <label>Establishment Name
-              <input type="text" value="Red Rock Downtown BBQ">
-            </label>
+
             <div class="row">
-              <div class="small-12 medium-6 columns">
+              <div class="small-12 medium-12 columns">
+                <label>Establishment Name
+                  <input type="text" value="Red Rock Downtown BBQ" placeholder="This will be displayed on the Jetti Interface">
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-12 medium-12 columns">
+                <label>Primary Contact
+                  <input type="text" value="Joe Anybody" placeholder="Enter your name">
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-12 medium-4 columns">
                 <label>Street Address
                   <input type="text" value="123 Michigan Ave">
                 </label>
@@ -46,11 +60,54 @@
               </div>
               <div class="small-12 medium-3 columns">
                 <label>State
-                  <input type="text" value="Ypsilanti">
+                  <input type="text" value="Michigan">
+                </label>
+              </div>
+              <div class="small-12 medium-2 columns">
+                <label>Zip
+                  <input type="text" value="12345">
                 </label>
               </div>
             </div>
-            <a href="profile-creation.html"><input type="button" class="button expand" value="ITS PERFECT, NEXT"></a>
+
+            <div class="row">
+              <div class="small-12 medium-3 columns">
+                <label>Phone
+                  <input type="tel" value="(123) 123-4567">
+                </label>
+              </div>
+              <div class="small-12 medium-3 columns">
+                <label>Fax
+                  <input type="tel" value="(123) 123-4567">
+                </label>
+              </div>
+              <div class="small-12 medium-6 columns">
+                <label>Email
+                  <input type="Email" value="you@redrockbbq.com">
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-12 medium-12 columns">
+                <label>Website
+                  <input type="url" value="http://www.redrockbbqypsi.com">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-12 medium-6 columns">
+                <label>Facebook
+                  <input type="url" value="http://www.redrockbbqypsi.com">
+                </label>
+              </div>
+              <div class="small-12 medium-6 columns">
+                <label>Twitter
+                  <input type="url" value="http://www.redrockbbqypsi.com">
+                </label>
+              </div>
+            </div>
+            <a href="dashboard.html"><input type="button" class="button expand" value="ITS PERFECT, NEXT"></a>
           </form>
         </div>
 

@@ -33,17 +33,17 @@ $lightest-dividerColor: #B6B6B6;
 
 .logo
 {
-font-family: $logo-font;
+	font-family: $logo-font;
 }
 
 main
 {
-margin-top: 2vh;
+	margin-top: 0em;
 }
 
 h1, h2, h3, p
 {
-color: $darkest-primaryTextColor;
+	color: $darkest-primaryTextColor;
 }
 
 h1
@@ -53,36 +53,84 @@ h1
 
 .global-nav
 {
-background-color: $orange-primaryColor;
+	background-color: $orange-primaryColor;
+
+	a.active
+	{
+		background-color: $orange-dark-darkPrimaryColor;
+	}
 }
 
 .global-nav-button
 {
-color: $white-textPrimaryColor;
-padding: 0 12px;
-transition: background-color .25s ease;
-background-color: $orange-primaryColor;
-font-weight: 100;
+	color: $white-textPrimaryColor;
+	padding: 0 12px;
+	transition: background-color .25s ease;
+	background-color: $orange-primaryColor;
+	font-weight: 100;
 }
 
 .global-nav-button:hover
 {
-transition: background-color .25s ease;
-background-color: $orange-dark-darkPrimaryColor;
-color: $white-textPrimaryColor;
+	transition: background-color .25s ease;
+	background-color: $orange-dark-darkPrimaryColor;
+	color: $white-textPrimaryColor;
 }
 
 .global-nav-button:active
 {
-transition: background-color .25s ease;
-background-color: $orange-dark-darkPrimaryColor;
-color: $white-textPrimaryColor;
+	transition: background-color .25s ease;
+	background-color: $orange-dark-darkPrimaryColor;
+	color: $white-textPrimaryColor;
 }
 
 label
 {
-font-weight: bold;
-color: $darkest-primaryTextColor;
+	font-weight: bold;
+	color: $darkest-primaryTextColor;
 }
+
+.admin-nav-container
+{
+	background: $orange-primaryColor;
+	padding-bottom: 0;
+	border-top: 2px solid $darkest-primaryTextColor;
+	border-bottom: 2px solid $darkest-primaryTextColor;
+}
+
+.admin-nav
+{
+
+	a
+	{
+		background-color: $orange-primaryColor;
+		font-size: .75em;
+		font-weight: bold;
+		border-left: 1px solid $darkest-primaryTextColor;
+		border-right: 1px solid $darkest-primaryTextColor;
+	}
+
+	.button
+	{
+		margin-bottom: 0;
+	}
+
+	a.active
+	{
+		background-color: $orange-dark-darkPrimaryColor;
+	}
+
+	.first
+	{
+		border-left: 2px solid $darkest-primaryTextColor;
+		
+	}
+
+	.last
+	{
+		border-right: 2px solid $darkest-primaryTextColor;
+	}
+}
+
 
 

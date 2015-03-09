@@ -10405,7 +10405,7 @@ th.hide-for-touch {
 
 /* line 40, ../scss/_custom.scss */
 main {
-  margin-top: 2vh;
+  margin-top: 0em;
 }
 
 /* line 45, ../scss/_custom.scss */
@@ -10422,8 +10422,12 @@ h1 {
 .global-nav {
   background-color: #ff5722;
 }
+/* line 59, ../scss/_custom.scss */
+.global-nav a.active {
+  background-color: #e64a19;
+}
 
-/* line 60, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 .global-nav-button {
   color: white;
   padding: 0 12px;
@@ -10432,22 +10436,55 @@ h1 {
   font-weight: 100;
 }
 
-/* line 69, ../scss/_custom.scss */
+/* line 74, ../scss/_custom.scss */
 .global-nav-button:hover {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 76, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 .global-nav-button:active {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 83, ../scss/_custom.scss */
+/* line 88, ../scss/_custom.scss */
 label {
   font-weight: bold;
   color: #444444;
+}
+
+/* line 94, ../scss/_custom.scss */
+.admin-nav-container {
+  background: #ff5722;
+  padding-bottom: 0;
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
+}
+
+/* line 105, ../scss/_custom.scss */
+.admin-nav a {
+  background-color: #ff5722;
+  font-size: .75em;
+  font-weight: bold;
+  border-left: 1px solid #444444;
+  border-right: 1px solid #444444;
+}
+/* line 114, ../scss/_custom.scss */
+.admin-nav .button {
+  margin-bottom: 0;
+}
+/* line 119, ../scss/_custom.scss */
+.admin-nav a.active {
+  background-color: #e64a19;
+}
+/* line 124, ../scss/_custom.scss */
+.admin-nav .first {
+  border-left: 2px solid #444444;
+}
+/* line 130, ../scss/_custom.scss */
+.admin-nav .last {
+  border-right: 2px solid #444444;
 }
