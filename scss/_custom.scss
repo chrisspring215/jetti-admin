@@ -38,7 +38,7 @@ $lightest-dividerColor: #B6B6B6;
 
 main
 {
-	margin-top: 0em;
+	margin-top: 2em;
 }
 
 h1, h2, h3, p
@@ -50,6 +50,13 @@ h1
 {
 	font-weight: 900;
 }
+
+h2
+{
+	font-weight: 700;
+	font-variant: small-caps;
+}
+
 
 .global-nav
 {
@@ -100,7 +107,6 @@ label
 
 .admin-nav
 {
-
 	a
 	{
 		background-color: $orange-primaryColor;
@@ -117,7 +123,7 @@ label
 
 	a.active
 	{
-		background-color: $orange-dark-darkPrimaryColor;
+		background-color: $darkest-primaryTextColor - 20;
 	}
 
 	.first
@@ -132,5 +138,102 @@ label
 	}
 }
 
+.admin-sub-nav-container
+{
+	padding-bottom: 0;
+	margin-bottom: 0em;
+}
 
+ .admin-sub-nav
+ {
+ 	padding-bottom: 0;
+ 	margin-bottom: 0;
+
+ 	a
+	{
+		background-color: $lighter-secondaryTextColor;
+		font-size: .75em;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	a.active
+	{
+		background-color: $darkest-primaryTextColor - 20;
+	}
+
+	.first
+	{
+		border-right: 2px solid $lightest-dividerColor;
+		
+	}
+
+	.last
+	{
+		border-left: 2px solid $lightest-dividerColor;
+	}
+ }
+
+ .tabs
+ {
+ 	.tab-title
+ 	{
+ 		width: 20%;
+ 	}
+
+ 	.tab-title a
+ 	{
+ 		background-color: $lighter-secondaryTextColor;
+ 		color: $white-textPrimaryColor;
+ 		font-size: .75em;
+		font-weight: bold;
+		text-transform: uppercase;
+		border-left: 2px solid $lightest-dividerColor;
+ 		transition: background-color 300ms ease-out 0s;
+ 	}
+
+ 	.first a
+ 	{
+ 		border-left: none;
+ 	}
+
+ 	.tab-title a:hover
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: $orange-primaryColor;
+ 	}
+
+ 	.tab-title.active a
+ 	{
+ 		background-color: $darkest-primaryTextColor - 20;
+ 		color: $white-textPrimaryColor;
+ 	}
+
+ 	.add a
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #43AC6A;
+ 	}
+
+ 	.add a:hover
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #368A55;
+ 	}
+
+ 	.remove a
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #F04124;
+ 	}
+
+ 	.remove a:hover
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #CF2A0E;
+ 	}
+
+
+ 	
+ }
 
