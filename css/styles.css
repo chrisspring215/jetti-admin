@@ -10574,3 +10574,43 @@ label {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
 }
+
+/* line 240, ../scss/_custom.scss */
+.meal-tabs .tab-title {
+  width: 25%;
+}
+/* line 245, ../scss/_custom.scss */
+.meal-tabs .tab-title a {
+  border: none;
+  text-align: center;
+}
+
+/* line 254, ../scss/_custom.scss */
+.category-tabs .tab-title {
+  width: 33.3334%;
+}
+/* line 259, ../scss/_custom.scss */
+.category-tabs .tab-title a {
+  border: none;
+  text-align: center;
+}
+/* line 265, ../scss/_custom.scss */
+.category-tabs .add a {
+  transition: background-color 300ms ease-out 0s;
+  background-color: #43AC6A;
+}
+/* line 271, ../scss/_custom.scss */
+.category-tabs .add a:hover {
+  transition: background-color 300ms ease-out 0s;
+  background-color: #368A55;
+}
+/* line 277, ../scss/_custom.scss */
+.category-tabs .remove a {
+  transition: background-color 300ms ease-out 0s;
+  background-color: #F04124;
+}
+/* line 283, ../scss/_custom.scss */
+.category-tabs .remove a:hover {
+  transition: background-color 300ms ease-out 0s;
+  background-color: #CF2A0E;
+}

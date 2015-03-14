@@ -232,8 +232,57 @@ label
  		transition: background-color 300ms ease-out 0s;
  		background-color: #CF2A0E;
  	}
-
-
- 	
  }
 
+ .meal-tabs
+ {
+ 	.tab-title
+ 	{
+ 		width: 25%;
+ 	}
+
+ 	.tab-title a
+ 	{
+ 		border: none;
+ 		text-align: center
+ 	}
+ }
+
+ .category-tabs
+ {
+ 	.tab-title
+ 	{
+ 		width: 33.3334%;
+ 	}
+
+ 	.tab-title a
+ 	{
+ 		border: none;
+ 		text-align: center
+ 	}
+
+ 	.add a
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #43AC6A;
+ 	}
+
+ 	.add a:hover
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #368A55;
+ 	}
+
+ 	.remove a
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #F04124;
+ 	}
+
+ 	.remove a:hover
+ 	{
+ 		transition: background-color 300ms ease-out 0s;
+ 		background-color: #CF2A0E;
+ 	}
+
+ }
