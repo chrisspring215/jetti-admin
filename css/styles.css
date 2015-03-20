@@ -10484,55 +10484,57 @@ label {
 }
 /* line 125, ../scss/_custom.scss */
 .admin-nav a.active {
-  background-color: #303030;
+  background-color: #444444;
+  color: #e64a19;
 }
-/* line 130, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 .admin-nav .first {
   border-left: 2px solid #444444;
 }
-/* line 136, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 .admin-nav .last {
   border-right: 2px solid #444444;
 }
 
-/* line 142, ../scss/_custom.scss */
+/* line 143, ../scss/_custom.scss */
 .admin-sub-nav-container {
   padding-bottom: 0;
   margin-bottom: 0em;
 }
 
-/* line 148, ../scss/_custom.scss */
+/* line 149, ../scss/_custom.scss */
 .admin-sub-nav {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 153, ../scss/_custom.scss */
+/* line 154, ../scss/_custom.scss */
 .admin-sub-nav a {
-  background-color: #727272;
+  background-color: #ff5722;
   font-size: .75em;
   font-weight: bold;
   margin-bottom: 0;
 }
-/* line 161, ../scss/_custom.scss */
+/* line 162, ../scss/_custom.scss */
 .admin-sub-nav a.active {
-  background-color: #303030;
+  background-color: #444444;
+  color: #e64a19;
 }
-/* line 166, ../scss/_custom.scss */
+/* line 168, ../scss/_custom.scss */
 .admin-sub-nav .first {
   border-right: 2px solid #b6b6b6;
 }
-/* line 172, ../scss/_custom.scss */
+/* line 174, ../scss/_custom.scss */
 .admin-sub-nav .last {
   border-left: 2px solid #b6b6b6;
 }
 
-/* line 180, ../scss/_custom.scss */
+/* line 182, ../scss/_custom.scss */
 .tabs .tab-title {
   width: 20%;
 }
-/* line 185, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 .tabs .tab-title a {
-  background-color: #727272;
+  background-color: #ff5722;
   color: white;
   font-size: .75em;
   font-weight: bold;
@@ -10540,76 +10542,76 @@ label {
   border-left: 2px solid #b6b6b6;
   transition: background-color 300ms ease-out 0s;
 }
-/* line 196, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 .tabs .first a {
   border-left: none;
 }
-/* line 201, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 .tabs .tab-title a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #ff5722;
 }
-/* line 207, ../scss/_custom.scss */
+/* line 209, ../scss/_custom.scss */
 .tabs .tab-title.active a {
-  background-color: #303030;
-  color: white;
+  background-color: #444444;
+  color: #e64a19;
 }
-/* line 213, ../scss/_custom.scss */
+/* line 215, ../scss/_custom.scss */
 .tabs .add a {
   transition: background-color 300ms ease-out 0s;
   background-color: #43AC6A;
 }
-/* line 219, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 .tabs .add a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #368A55;
 }
-/* line 225, ../scss/_custom.scss */
+/* line 227, ../scss/_custom.scss */
 .tabs .remove a {
   transition: background-color 300ms ease-out 0s;
   background-color: #F04124;
 }
-/* line 231, ../scss/_custom.scss */
+/* line 233, ../scss/_custom.scss */
 .tabs .remove a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
 }
 
-/* line 240, ../scss/_custom.scss */
+/* line 242, ../scss/_custom.scss */
 .meal-tabs .tab-title {
   width: 25%;
 }
-/* line 245, ../scss/_custom.scss */
+/* line 247, ../scss/_custom.scss */
 .meal-tabs .tab-title a {
   border: none;
   text-align: center;
 }
 
-/* line 254, ../scss/_custom.scss */
+/* line 256, ../scss/_custom.scss */
 .category-tabs .tab-title {
   width: 33.3334%;
 }
-/* line 259, ../scss/_custom.scss */
+/* line 261, ../scss/_custom.scss */
 .category-tabs .tab-title a {
   border: none;
   text-align: center;
 }
-/* line 265, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 .category-tabs .add a {
   transition: background-color 300ms ease-out 0s;
   background-color: #43AC6A;
 }
-/* line 271, ../scss/_custom.scss */
+/* line 273, ../scss/_custom.scss */
 .category-tabs .add a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #368A55;
 }
-/* line 277, ../scss/_custom.scss */
+/* line 279, ../scss/_custom.scss */
 .category-tabs .remove a {
   transition: background-color 300ms ease-out 0s;
   background-color: #F04124;
 }
-/* line 283, ../scss/_custom.scss */
+/* line 285, ../scss/_custom.scss */
 .category-tabs .remove a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
