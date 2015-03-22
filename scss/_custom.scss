@@ -288,3 +288,21 @@ label
  	}
 
  }
+
+.member-value
+{
+	font-weight: 700;
+	font-size: 3em;
+
+	small
+	{
+		color: $green-successColor;
+	}
+}
+
+ .top-member-tabs .tab-title
+ {
+ 	display: block;
+ 	width: 50%;
+
+ }

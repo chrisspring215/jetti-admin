@@ -10616,3 +10616,19 @@ label {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
 }
+
+/* line 293, ../scss/_custom.scss */
+.member-value {
+  font-weight: 700;
+  font-size: 3em;
+}
+/* line 298, ../scss/_custom.scss */
+.member-value small {
+  color: #259b24;
+}
+
+/* line 304, ../scss/_custom.scss */
+.top-member-tabs .tab-title {
+  display: block;
+  width: 50%;
+}
