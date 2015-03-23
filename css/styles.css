@@ -10632,3 +10632,18 @@ label {
   display: block;
   width: 50%;
 }
+
+/* line 311, ../scss/_custom.scss */
+input[type="checkbox"].members-list-checkbox {
+  border: 1px solid red;
+  margin-bottom: 0;
+}
+
+/* line 317, ../scss/_custom.scss */
+ul.pagination li.current a {
+  background: #ff5722;
+}
+/* line 321, ../scss/_custom.scss */
+ul.pagination li.current a:hover {
+  background: #e64a19;
+}

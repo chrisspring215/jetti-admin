@@ -306,3 +306,19 @@ label
  	width: 50%;
 
  }
+
+ input[type="checkbox"].members-list-checkbox
+ {
+ 	border: 1px solid red;
+ 	margin-bottom: 0;
+ }
+
+ ul.pagination li.current a
+ {
+ 	background: $orange-primaryColor;
+
+ 	&:hover
+ 	{
+ 		background: $orange-dark-darkPrimaryColor;
+ 	}
+ }
