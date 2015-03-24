@@ -255,6 +255,7 @@ label
  	.tab-title
  	{
  		width: 33.3334%;
+ 		border-left: 2px solid $lightest-dividerColor;
  	}
 
  	.tab-title a
@@ -285,6 +286,11 @@ label
  	{
  		transition: background-color 300ms ease-out 0s;
  		background-color: #CF2A0E;
+ 	}
+
+ 	.first, .last
+ 	{
+ 		border-left: none;
  	}
 
  }

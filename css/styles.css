@@ -10590,60 +10590,65 @@ label {
 /* line 256, ../scss/_custom.scss */
 .category-tabs .tab-title {
   width: 33.3334%;
+  border-left: 2px solid #b6b6b6;
 }
-/* line 261, ../scss/_custom.scss */
+/* line 262, ../scss/_custom.scss */
 .category-tabs .tab-title a {
   border: none;
   text-align: center;
 }
-/* line 267, ../scss/_custom.scss */
+/* line 268, ../scss/_custom.scss */
 .category-tabs .add a {
   transition: background-color 300ms ease-out 0s;
   background-color: #43AC6A;
 }
-/* line 273, ../scss/_custom.scss */
+/* line 274, ../scss/_custom.scss */
 .category-tabs .add a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #368A55;
 }
-/* line 279, ../scss/_custom.scss */
+/* line 280, ../scss/_custom.scss */
 .category-tabs .remove a {
   transition: background-color 300ms ease-out 0s;
   background-color: #F04124;
 }
-/* line 285, ../scss/_custom.scss */
+/* line 286, ../scss/_custom.scss */
 .category-tabs .remove a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
 }
+/* line 292, ../scss/_custom.scss */
+.category-tabs .first, .category-tabs .last {
+  border-left: none;
+}
 
-/* line 293, ../scss/_custom.scss */
+/* line 299, ../scss/_custom.scss */
 .member-value {
   font-weight: 700;
   font-size: 3em;
 }
-/* line 298, ../scss/_custom.scss */
+/* line 304, ../scss/_custom.scss */
 .member-value small {
   color: #259b24;
 }
 
-/* line 304, ../scss/_custom.scss */
+/* line 310, ../scss/_custom.scss */
 .top-member-tabs .tab-title {
   display: block;
   width: 50%;
 }
 
-/* line 311, ../scss/_custom.scss */
+/* line 317, ../scss/_custom.scss */
 input[type="checkbox"].members-list-checkbox {
   border: 1px solid red;
   margin-bottom: 0;
 }
 
-/* line 317, ../scss/_custom.scss */
+/* line 323, ../scss/_custom.scss */
 ul.pagination li.current a {
   background: #ff5722;
 }
-/* line 321, ../scss/_custom.scss */
+/* line 327, ../scss/_custom.scss */
 ul.pagination li.current a:hover {
   background: #e64a19;
 }
