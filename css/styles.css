@@ -10652,3 +10652,34 @@ ul.pagination li.current a {
 ul.pagination li.current a:hover {
   background: #e64a19;
 }
+
+/* line 333, ../scss/_custom.scss */
+span.postfix {
+  font-weight: bold;
+  background: #ff5722;
+  color: white;
+}
+
+/* line 340, ../scss/_custom.scss */
+.point-earner-label {
+  color: #727272;
+  font-weight: 300;
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+/* line 349, ../scss/_custom.scss */
+.point-earner-item-name {
+  font-weight: 700;
+  color: #444444;
+}
+
+/* line 355, ../scss/_custom.scss */
+.button.disabled {
+  background-color: #727272;
+}
+/* line 359, ../scss/_custom.scss */
+.button.disabled:hover {
+  background-color: #727272;
+}

@@ -328,3 +328,35 @@ label
  		background: $orange-dark-darkPrimaryColor;
  	}
  }
+
+span.postfix
+ {
+ 	font-weight: bold;
+ 	background: $orange-primaryColor;
+ 	color: $white-textPrimaryColor;
+ }
+
+ .point-earner-label
+ {
+ 	color: $lighter-secondaryTextColor;
+ 	font-weight: 300;
+ 	border-bottom: 1px solid $lightest-dividerColor;
+ 	padding-bottom: .5em;
+ 	margin-bottom: .5em;
+ }
+
+ .point-earner-item-name
+ {
+ 	font-weight: 700;
+ 	color: $darkest-primaryTextColor
+ }
+
+.button.disabled
+ {
+ 	background-color: $lighter-secondaryTextColor;
+
+ 	&:hover
+ 	{
+ 		background-color: $lighter-secondaryTextColor;
+ 	}
+ }
