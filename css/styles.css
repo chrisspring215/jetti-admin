@@ -10407,33 +10407,37 @@ th.hide-for-touch {
 main {
   margin-top: 2em;
 }
+/* line 44, ../scss/_custom.scss */
+main .reveal-modal {
+  top: 6.25rem;
+}
 
-/* line 45, ../scss/_custom.scss */
+/* line 50, ../scss/_custom.scss */
 h1, h2, h3, p {
   color: #444444;
 }
 
-/* line 50, ../scss/_custom.scss */
+/* line 55, ../scss/_custom.scss */
 h1 {
   font-weight: 900;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 60, ../scss/_custom.scss */
 h2 {
   font-weight: 700;
   font-variant: small-caps;
 }
 
-/* line 62, ../scss/_custom.scss */
+/* line 67, ../scss/_custom.scss */
 .global-nav {
   background-color: #ff5722;
 }
-/* line 66, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
 .global-nav a.active {
   background-color: #e64a19;
 }
 
-/* line 72, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 .global-nav-button {
   color: white;
   padding: 0 12px;
@@ -10442,27 +10446,27 @@ h2 {
   font-weight: 100;
 }
 
-/* line 81, ../scss/_custom.scss */
+/* line 86, ../scss/_custom.scss */
 .global-nav-button:hover {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 88, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .global-nav-button:active {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 95, ../scss/_custom.scss */
+/* line 100, ../scss/_custom.scss */
 label {
   font-weight: bold;
   color: #444444;
 }
 
-/* line 101, ../scss/_custom.scss */
+/* line 106, ../scss/_custom.scss */
 .admin-nav-container {
   background: #ff5722;
   padding-bottom: 0;
@@ -10470,7 +10474,7 @@ label {
   border-bottom: 2px solid #444444;
 }
 
-/* line 111, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 .admin-nav a {
   background-color: #ff5722;
   font-size: .75em;
@@ -10478,61 +10482,61 @@ label {
   border-left: 1px solid #444444;
   border-right: 1px solid #444444;
 }
-/* line 120, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .admin-nav .button {
   margin-bottom: 0;
 }
-/* line 125, ../scss/_custom.scss */
+/* line 130, ../scss/_custom.scss */
 .admin-nav a.active {
   background-color: #444444;
   color: #e64a19;
 }
-/* line 131, ../scss/_custom.scss */
+/* line 136, ../scss/_custom.scss */
 .admin-nav .first {
   border-left: 2px solid #444444;
 }
-/* line 137, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .admin-nav .last {
   border-right: 2px solid #444444;
 }
 
-/* line 143, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 .admin-sub-nav-container {
   padding-bottom: 0;
   margin-bottom: 0em;
 }
 
-/* line 149, ../scss/_custom.scss */
+/* line 154, ../scss/_custom.scss */
 .admin-sub-nav {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 154, ../scss/_custom.scss */
+/* line 159, ../scss/_custom.scss */
 .admin-sub-nav a {
   background-color: #ff5722;
   font-size: .75em;
   font-weight: bold;
   margin-bottom: 0;
 }
-/* line 162, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 .admin-sub-nav a.active {
   background-color: #444444;
   color: #e64a19;
 }
-/* line 168, ../scss/_custom.scss */
+/* line 173, ../scss/_custom.scss */
 .admin-sub-nav .first {
   border-right: 2px solid #b6b6b6;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 179, ../scss/_custom.scss */
 .admin-sub-nav .last {
   border-left: 2px solid #b6b6b6;
 }
 
-/* line 182, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 .tabs .tab-title {
   width: 20%;
 }
-/* line 187, ../scss/_custom.scss */
+/* line 192, ../scss/_custom.scss */
 .tabs .tab-title a {
   background-color: #ff5722;
   color: white;
@@ -10542,125 +10546,125 @@ label {
   border-left: 2px solid #b6b6b6;
   transition: background-color 300ms ease-out 0s;
 }
-/* line 198, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 .tabs .first a {
   border-left: none;
 }
-/* line 203, ../scss/_custom.scss */
+/* line 208, ../scss/_custom.scss */
 .tabs .tab-title a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #ff5722;
 }
-/* line 209, ../scss/_custom.scss */
+/* line 214, ../scss/_custom.scss */
 .tabs .tab-title.active a {
   background-color: #444444;
   color: #e64a19;
 }
-/* line 215, ../scss/_custom.scss */
+/* line 220, ../scss/_custom.scss */
 .tabs .add a {
   transition: background-color 300ms ease-out 0s;
   background-color: #43AC6A;
 }
-/* line 221, ../scss/_custom.scss */
+/* line 226, ../scss/_custom.scss */
 .tabs .add a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #368A55;
 }
-/* line 227, ../scss/_custom.scss */
+/* line 232, ../scss/_custom.scss */
 .tabs .remove a {
   transition: background-color 300ms ease-out 0s;
   background-color: #F04124;
 }
-/* line 233, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 .tabs .remove a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
 }
 
-/* line 242, ../scss/_custom.scss */
+/* line 247, ../scss/_custom.scss */
 .meal-tabs .tab-title {
   width: 25%;
 }
-/* line 247, ../scss/_custom.scss */
+/* line 252, ../scss/_custom.scss */
 .meal-tabs .tab-title a {
   border: none;
   text-align: center;
 }
 
-/* line 256, ../scss/_custom.scss */
+/* line 261, ../scss/_custom.scss */
 .category-tabs .tab-title {
   width: 33.3334%;
   border-left: 2px solid #b6b6b6;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 .category-tabs .tab-title a {
   border: none;
   text-align: center;
 }
-/* line 268, ../scss/_custom.scss */
+/* line 273, ../scss/_custom.scss */
 .category-tabs .add a {
   transition: background-color 300ms ease-out 0s;
   background-color: #43AC6A;
 }
-/* line 274, ../scss/_custom.scss */
+/* line 279, ../scss/_custom.scss */
 .category-tabs .add a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #368A55;
 }
-/* line 280, ../scss/_custom.scss */
+/* line 285, ../scss/_custom.scss */
 .category-tabs .remove a {
   transition: background-color 300ms ease-out 0s;
   background-color: #F04124;
 }
-/* line 286, ../scss/_custom.scss */
+/* line 291, ../scss/_custom.scss */
 .category-tabs .remove a:hover {
   transition: background-color 300ms ease-out 0s;
   background-color: #CF2A0E;
 }
-/* line 292, ../scss/_custom.scss */
+/* line 297, ../scss/_custom.scss */
 .category-tabs .first, .category-tabs .last {
   border-left: none;
 }
 
-/* line 299, ../scss/_custom.scss */
+/* line 304, ../scss/_custom.scss */
 .member-value {
   font-weight: 700;
   font-size: 3em;
 }
-/* line 304, ../scss/_custom.scss */
+/* line 309, ../scss/_custom.scss */
 .member-value small {
   color: #259b24;
 }
 
-/* line 310, ../scss/_custom.scss */
+/* line 315, ../scss/_custom.scss */
 .top-member-tabs .tab-title {
   display: block;
   width: 50%;
 }
 
-/* line 317, ../scss/_custom.scss */
+/* line 322, ../scss/_custom.scss */
 input[type="checkbox"].members-list-checkbox {
   border: 1px solid red;
   margin-bottom: 0;
 }
 
-/* line 323, ../scss/_custom.scss */
+/* line 328, ../scss/_custom.scss */
 ul.pagination li.current a {
   background: #ff5722;
 }
-/* line 327, ../scss/_custom.scss */
+/* line 332, ../scss/_custom.scss */
 ul.pagination li.current a:hover {
   background: #e64a19;
 }
 
-/* line 333, ../scss/_custom.scss */
+/* line 338, ../scss/_custom.scss */
 span.postfix {
   font-weight: bold;
   background: #ff5722;
   color: white;
 }
 
-/* line 340, ../scss/_custom.scss */
+/* line 345, ../scss/_custom.scss */
 .point-earner-label {
   color: #727272;
   font-weight: 300;
@@ -10669,17 +10673,22 @@ span.postfix {
   margin-bottom: .5em;
 }
 
-/* line 349, ../scss/_custom.scss */
+/* line 354, ../scss/_custom.scss */
 .point-earner-item-name {
   font-weight: 700;
   color: #444444;
 }
 
-/* line 355, ../scss/_custom.scss */
+/* line 360, ../scss/_custom.scss */
 .button.disabled {
   background-color: #727272;
 }
-/* line 359, ../scss/_custom.scss */
+/* line 364, ../scss/_custom.scss */
 .button.disabled:hover {
   background-color: #727272;
+}
+
+/* line 370, ../scss/_custom.scss */
+.add-remove-icons {
+  height: 24px;
 }

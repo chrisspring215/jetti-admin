@@ -39,6 +39,11 @@ $lightest-dividerColor: #B6B6B6;
 main
 {
 	margin-top: 2em;
+
+	.reveal-modal
+{
+    top: 6.25rem;
+}
 }
 
 h1, h2, h3, p
@@ -360,3 +365,10 @@ span.postfix
  		background-color: $lighter-secondaryTextColor;
  	}
  }
+
+ .add-remove-icons
+ {
+ 	height: 24px;
+ }
+
+
