@@ -3964,7 +3964,8 @@ blockquote p {
   background: rgba(0, 0, 0, 0.45);
   z-index: 1004;
   display: none;
-  left: 0; }
+  left: 0;
+  height: 148vh;}
 
 .reveal-modal, dialog {
   visibility: hidden;

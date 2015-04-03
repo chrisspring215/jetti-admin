@@ -12,7 +12,6 @@
   <body>
 
 
-
     <div class="contain-to-grid">
       <nav class="global-nav top-bar" data-topbar role="navigation">
         <a class="left global-nav-button logo" href="index.html">Jetti</a>
@@ -133,33 +132,32 @@
         <div class="small-12 medium-12 columns ">
           <h2>2. SET YOUR POINTER EARNERS</h2>
           <p>Create categories (up to 4) and set what items (up to 3) do you want to sell the most of durning this meal?</p>
-          <a href="#" data-reveal-id="myModal">Click Me For A Modal</a> <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"> <h2 id="modalTitle">Awesome. I have it.</h2> <p class="lead">Your couch. It is mine.</p> <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p> <a class="close-reveal-modal" aria-label="Close">&#215;</a> </div>
         </div>
 
         <!-- First Category -->
         <div class="small-12 medium-3 columns panel"> 
-          <label>Category Name <span class="right"><a href=""><img class="add-remove-icons" src="img/ic_remove_circle_48px.svg"></a></span>
+          <label>Category Name <span class="right"><a href="#" data-reveal-id="removeCategoryModal"><img class="add-remove-icons" src="img/ic_remove_circle_48px.svg"></a></span>
             <input type="text" placeholder="ex: Drinks">
           </label>
 
           <!-- ITEM -->
             <label class="point-earner-label">Item One
               <br>
-              <span class="point-earner-item-name">Bob's Wonderful Thick Hot Dog - 5 Points <a href="" class="right"> Edit</a></span>
+              <span class="point-earner-item-name">Bob's Wonderful Thick Hot Dog - 5 Points <a href="#" data-reveal-id="editItemModal" class="right"> Edit</a></span>
             </label>
           <!-- END ITEM -->
 
           <!-- ITEM -->
             <label class="point-earner-label">Item Two
               <br>
-              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="" class="right"> Edit</a></span>
+              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="#" data-reveal-id="editItemModal" class="right"> Edit</a></span>
             </label>
           <!-- END ITEM -->
 
           <!-- ITEM -->
             <label class="point-earner-label">Item Two
               <br>
-              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="" class="right"> Edit</a></span>
+              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="#" data-reveal-id="editItemModal" class="right"> Edit</a></span>
             </label>
           <!-- END ITEM -->
 
@@ -171,51 +169,48 @@
 
         <!-- Second Category -->
         <div class="small-12 medium-3 columns panel"> 
-          <label>Category Name <span class="right"><a href=""><img class="add-remove-icons" src="img/ic_remove_circle_48px.svg"></a></span>
+          <label>Category Name <span class="right"><a href="#" data-reveal-id="removeCategoryModal"><img class="add-remove-icons" src="img/ic_remove_circle_48px.svg"></a></span>
             <input type="text" placeholder="ex: Drinks">
           </label>
 
           <!-- ITEM -->
             <label class="point-earner-label">Item One
               <br>
-              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="" class="right"> Edit</a></span>
+              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="#" data-reveal-id="editItemModal" class="right"> Edit</a></span>
             </label>
           <!-- END ITEM -->
 
           <!-- ITEM -->
             <label class="point-earner-label">Item Two
               <br>
-              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="" class="right"> Edit</a></span>
+              <span class="point-earner-item-name">Hot Dog - 5 Points <a href="#" data-reveal-id="editItemModal" class="right"> Edit</a></span>
             </label>
           <!-- END ITEM -->
 
           <!-- ITEM -->
-            <a href="" class="button expand tiny">ADD ITEM</a>
+            <a href="#" data-reveal-id="addItemModal" class="button expand tiny">ADD ITEM</a>
           <!-- END ITEM -->
         </div>
         <!-- End Second Category -->
 
         <!-- Third Category -->
         <div class="small-12 medium-3 columns panel"> 
-          <label>Category Name <span class="right"><a href=""><img class="add-remove-icons" src="img/ic_remove_circle_48px.svg"></a></span>
+          <label>Category Name <span class="right"><a href="#" data-reveal-id="removeCategoryModal"><img class="add-remove-icons" src="img/ic_remove_circle_48px.svg"></a></span>
             <input type="text" placeholder="ex: Drinks">
           </label>
 
           <!-- ITEM -->
-            <label class="point-earner-label">Item One
-              <br>
-              <span class="point-earner-item-name">NO ITEMS ENTERED</span>
-            </label>
+              <span class="point-earner-item-name">NO ITEMS</span>
           <!-- END ITEM -->
 
           <!-- ITEM -->
-            <a href="" class="button expand tiny">ADD ITEM</a>
+            <a href="#" data-reveal-id="addItemModal" class="button expand tiny">ADD ITEM</a>
           <!-- END ITEM -->
         </div>
         <!-- End Third Category -->
 
         <div class="small-12 medium-3 columns"> 
-          <a href="" class="button tiny expand">ADD CATEGORY</a>
+          <a href="#" data-reveal-id="addCategoryModal" class="button tiny expand">ADD CATEGORY</a>
         </div>
      
         <!-- End Point Earners -->
@@ -287,7 +282,79 @@
           <p>Having issues? <a href="password-change.html">CLICK HERE</a></p>
         </div>
       </div>
+
+      
     </main>
+
+    <!-- MODALS -->
+
+    <!-- Remove Category Modal -->
+    <div id="removeCategoryModal" class="reveal-modal" data-reveal aria-labelledby="removeCategoryModal" aria-hidden="true" role="dialog">
+      <h2 id="removeCategoryModal">REMOVE CATEGORY</h2>
+      <p class="lead">You are about to permently remove this category. <strong>ARE YOU SURE?</strong></p>
+      <a class="close-reveal-modal button alert right" aria-label="Close">NO, CANCEL</a>
+      <a class="close-reveal-modal button success right" aria-label="Close">YES, DELETE IT</a>
+    </div>
+    <!-- END Remove Category Modal -->
+
+    <!-- Add Category Modal -->
+    <div id="addCategoryModal" class="reveal-modal" data-reveal aria-labelledby="addCategoryModal" aria-hidden="true" role="dialog">
+      <h2 id="addCategoryModal">ADD CATEGORY</h2>
+      <p class="lead">You are about to permently remove this category. <strong>ARE YOU SURE?</strong></p>
+      <a class="close-reveal-modal button alert right" aria-label="Close">NO, CANCEL</a>
+      <a class="close-reveal-modal button success right" aria-label="Close">YES, DELETE IT</a>
+    </div>
+    <!-- END Add Category Modal -->
+
+    <!-- Add Item Modal -->
+    <div id="addItemModal" class="reveal-modal" data-reveal aria-labelledby="addItemModal" aria-hidden="true" role="dialog">
+      <h2 id="addItemModal">Add Item</h2>
+      <p class="lead">Add an item to this category. You can have a total of 3 items in each. You can also add a description, image and price.</p>
+      <form class="row">
+        <div class="small-12 columns">
+          <label>Enter the item's name as it appears on you menu
+            <input type="text">
+          </label>
+        </div>
+        <div class="small-12 columns"> 
+          <label>Enter the item's price
+            <input type="text">
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <label>Add a description of the item
+            <textarea></textarea>
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <label>Select a photo of the item
+            <input type="file">
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <a class="close-reveal-modal button alert right" aria-label="Close">NEVERMIND, CANCEL</a>
+          <a class="close-reveal-modal button success right" aria-label="Close">SAVE IT</a>
+        </div>
+        
+      </form>
+
+    </div>
+    <!-- END Add Item Modal -->
+
+    <!-- Edit Item Modal -->
+    <div id="editItemModal" class="reveal-modal" data-reveal aria-labelledby="editItemModal" aria-hidden="true" role="dialog">
+      <h2 id="editItemModal">Edit Item</h2>
+      <p class="lead">You are about to permently remove this category. <strong>ARE YOU SURE?</strong></p>
+      <a class="close-reveal-modal button alert right" aria-label="Close">NO, CANCEL</a>
+      <a class="close-reveal-modal button success right" aria-label="Close">YES, DELETE IT</a>
+    </div>
+    <!-- END Edit Item Modal -->
+
+    <!-- END MODALS -->
+
+
+
+
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
