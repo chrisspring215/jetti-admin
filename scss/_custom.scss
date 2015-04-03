@@ -329,7 +329,7 @@ label
  	}
  }
 
-span.postfix
+span.prefix
  {
  	font-weight: bold;
  	background: $orange-primaryColor;
@@ -366,4 +366,7 @@ span.postfix
  	height: 24px;
  }
 
-
+table input[type="text"]
+{
+	margin-bottom: 0;
+}

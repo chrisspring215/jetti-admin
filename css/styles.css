@@ -10654,7 +10654,7 @@ ul.pagination li.current a:hover {
 }
 
 /* line 333, ../scss/_custom.scss */
-span.postfix {
+span.prefix {
   font-weight: bold;
   background: #ff5722;
   color: white;
@@ -10687,4 +10687,9 @@ span.postfix {
 /* line 365, ../scss/_custom.scss */
 .add-remove-icons {
   height: 24px;
+}
+
+/* line 370, ../scss/_custom.scss */
+table input[type="text"] {
+  margin-bottom: 0;
 }

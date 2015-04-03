@@ -40,7 +40,7 @@
 
       <div class="row ">
         <div class="small-12 medium-12 medium-centered columns">
-          <h1>Servers<a href="" class="button right">ADD SERVER</a></h1>
+          <h1>Servers</h1>
         </div>
       </div>
       
@@ -62,6 +62,7 @@
 
         <div class="small-12 medium-12 columns">
           <h2>Server Codes</h2>
+          <p>Use this module to add servers to your system, assign and change the codes they use to authenticate Jetti interactions, or edit their information.</p>
         </div>
         <!-- Left -->
         <div class="small-12 medium-12 columns">
@@ -70,9 +71,10 @@
               <tr>
                 <th>Last</th>
                 <th>First</th>
-                <th>Code</th>
-                <th>Updated</th>
-                <th>Change Code</th>
+                <th>Email</th>
+                <th class="text-center">Code</th>
+                <th class="text-center">Generate Random Code</th>
+                <th class="text-center">Updated</th>
                 <th>Edit Server</th>
               </tr>
             </thead>
@@ -80,10 +82,20 @@
               <tr>
                 <td>Doe</td>
                 <td>John</td>
-                <td>123456</td>
-                <td>2015/01/14</td>
-                <td><a href="">CHANGE</a></td>
-                <td><a href="">EDIT</a></td>
+                <td>jdoe@gmail.com</td>
+                <td class="text-center">123456</td>
+                <td class="text-center"><a href="">CHANGE</a></td>
+                <td class="text-center">2015/01/14</td>
+                <td class="text-center"><a href="#" data-reveal-id="editServerModal">EDIT</a></td>
+              </tr>
+              <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" placeholder="Six numbers"></td>
+                <td class="text-center">-</td>
+                <td class="text-center">-</td>
+                <td class="text-center"><a href="">ADD</a></td>
               </tr>
             </tbody>
           </table>
@@ -111,6 +123,49 @@
         </div>
       </div>
     </main>
+
+    <!-- MODALS -->
+    <!-- EDIT SERVER MODAL -->
+    <div id="editServerModal" class="reveal-modal" data-reveal aria-labelledby="editServerModal" aria-hidden="true" role="dialog">
+      <h2 id="editServerModal">Edit Server</h2>
+      <p class="lead">Here you can edit your servers' information, change their server codes and remove them from your system.</p>
+      <form class="row">
+        <div class="small-12 medium-3 columns">
+          <label>Last Name
+            <input type="text" value="Doe">
+          </label>
+        </div>
+        <div class="small-12 medium-3 columns">
+          <label>First Name
+            <input type="text" value="John">
+          </label>
+        </div>
+        <div class="small-12 medium-3 columns">
+          <label>Email
+            <input type="email" value="jdoe@gmail.com">
+          </label>
+        </div>
+        <div class="small-12 medium-3 columns">
+          <label>Server Code
+            <input type="text" value="123456">
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <a class="close-reveal-modal button alert right" aria-label="Cancel">CANCEL</a>
+          <a class="close-reveal-modal button success right" aria-label="Cancel">SAVE CHANGES</a> 
+        </div>
+        <div class="small-12 columns">
+          <a class="close-reveal-modal button alert right tiny" aria-label="DELETE">DELETE SERVER</a>
+        </div>
+        
+      </form>
+
+    </div>
+    <!-- END EDIT SERVER MODAL -->
+
+
+
+    <!-- END MODALS -->
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

@@ -54,7 +54,7 @@
             <a class="button expand" href="">LUNCH</a>
           </div>
           <div class="small-4 columns last">
-            <a class="button expand success" href="">ADD A MEAL</a>
+            <a class="button expand success" href="#" data-reveal-id="editMealModal">EDIT MEALS</a>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@
             </select>
           </label>
         </div>
-        <div class="small-12 medium-2 columns"> 
+        <div class="small-6 medium-2 columns"> 
           <label>Start Time (hour)
             <select>
               <option>12</option>
@@ -102,7 +102,7 @@
             </select>
           </label>
         </div>
-        <div class="small-12 medium-2 columns"> 
+        <div class="small-6 medium-2 columns"> 
           <label>Start Time (Min)
             <select>
               <option>:00</option>
@@ -225,7 +225,7 @@
         <div class="small-12 medium-12 columns ">
           <h2>3. SET YOUR REWARDS</h2>
 
-          <p>Enter in the rewards you want you want to give to your guests</p>
+          <p>Enter in the rewards you want you want to give to your guests. When they have earned enough point they are able to select one of items below. </p>
         </div>
 
         <!-- First Category -->
@@ -234,45 +234,48 @@
 
             <!-- ITEM -->
             <div class="row collapse">
-                <label>Item Name</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+                <div class="small-2 columns">
+                  <span class="prefix">200 Points</span>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">200 Points</span>
-                </div>
+                <div class="small-10 columns">
+                  <input type="text" placeholder="Enter your highest value reward" />
+                </div>     
             </div>
             <!-- END ITEM -->
 
             <!-- ITEM -->
             <div class="row collapse">
-                <label>Item Name</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+                <div class="small-2 columns">
+                  <span class="prefix">150 Points</span>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">150 Points</span>
-                </div>
+                <div class="small-10 columns">
+                  <input type="text" placeholder="Enter your medium value reward" />
+                </div>     
             </div>
             <!-- END ITEM -->
 
             <!-- ITEM -->
             <div class="row collapse">
-                <label>Item Name</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+                <div class="small-2 columns">
+                  <span class="prefix">100 Points</span>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">100 Points</span>
-                </div>
+                <div class="small-10 columns">
+                  <input type="text" placeholder="Enter your highest price reward" />
+                </div>     
             </div>
             <!-- END ITEM -->
-
-            <a href="" class="button expand tiny radius">ADD ITEM</a>
 
           </div>
         </form>
-        <!-- End First Category -->
+        <!-- End Rewards Category -->
+
+        <!-- PUSH -->
+        <div class="small-12 medium-12 columns ">
+          <h2>4. PUSH YOUR CHANGES LIVE</h2>
+
+          <p>Enter in the rewards you want you want to give to your guests. When they have earned enough point they are able to select one of items below. </p>
+        </div>
+        <!-- PUSH -->
 
       </div>
 
@@ -287,6 +290,41 @@
     </main>
 
     <!-- MODALS -->
+
+    <!-- Add Meal Modal -->
+    <div id="editMealModal" class="reveal-modal" data-reveal aria-labelledby="editMealModal" aria-hidden="true" role="dialog">
+      <h2 id="editMealModal">EDIT MEALS</h2>
+      <p class="lead">Here you can add, remove or rename your meal times. For example, if you have a group of menu items that only run at a certian time of day, create a new Meal and add those time speciffic items. <strong>You can only run one meal at a time.</strong></p>
+      <h3>Current Meals</h3>
+      <table class="small-12 columns">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Start Time</th>
+            <th>Days</th>
+            <th>Remove Meal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" value="Breakfast"></td>
+            <td>9:00AM</td>
+            <td>M, T, W, TH, F</td>
+            <td><a href="">DELETE</a></td>
+          </tr>
+          <tr>
+            <td><input type="text" value="Lunch"></td>
+            <td>12:00PM</td>
+            <td>Everyday</td>
+            <td><a href="">DELETE</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <a class="button left" aria-label="Add meal">ADD MEAL</a>
+      <a class="close-reveal-modal button alert right" aria-label="Don't save">DON'T SAVE</a>
+      <a class="close-reveal-modal button success right" aria-label="Save">SAVE &amp; CLOSE</a>
+    </div>
+    <!-- END Add Meal Modal -->
 
     <!-- Remove Category Modal -->
     <div id="removeCategoryModal" class="reveal-modal" data-reveal aria-labelledby="removeCategoryModal" aria-hidden="true" role="dialog">
@@ -334,8 +372,7 @@
         <div class="small-12 columns">
           <a class="close-reveal-modal button alert right" aria-label="Close">NEVERMIND, CANCEL</a>
           <a class="close-reveal-modal button success right" aria-label="Close">SAVE IT</a>
-        </div>
-        
+        </div>  
       </form>
 
     </div>
@@ -343,10 +380,34 @@
 
     <!-- Edit Item Modal -->
     <div id="editItemModal" class="reveal-modal" data-reveal aria-labelledby="editItemModal" aria-hidden="true" role="dialog">
-      <h2 id="editItemModal">Edit Item</h2>
-      <p class="lead">You are about to permently remove this category. <strong>ARE YOU SURE?</strong></p>
-      <a class="close-reveal-modal button alert right" aria-label="Close">NO, CANCEL</a>
-      <a class="close-reveal-modal button success right" aria-label="Close">YES, DELETE IT</a>
+      <h2 id="editItemModal">Edit Item <small>Item One</small></h2>
+      <p class="lead">Editing an item here will automatically update the item slot in it's category. <strong>REMEMBER: If you are swapping out an item, make sure to update all the fields.</strong></p>
+      <form class="row">
+        <div class="small-12 columns">
+          <label>Enter the item's name as it appears on you menu
+            <input type="text" value="Bob's Thick Wet Weiner">
+          </label>
+        </div>
+        <div class="small-12 columns"> 
+          <label>Enter the item's price
+            <input type="text" value="7.00">
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <label>Add a description of the item
+            <textarea>The thickest and wettest dog you've ever seen or had in your mouth, it pulses and throbs</textarea>
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <label>Select a photo of the item
+            <input type="file">
+          </label>
+        </div>
+        <div class="small-12 columns">
+          <a class="close-reveal-modal button alert right" aria-label="Close">NEVERMIND, CANCEL</a>
+          <a class="close-reveal-modal button success right" aria-label="Close">SAVE IT</a>
+        </div>  
+      </form>
     </div>
     <!-- END Edit Item Modal -->
 
