@@ -23,16 +23,16 @@
     <div class="admin-nav-container">
       <div class="row admin-nav collapse">
         <div class="small-3 columns">
-          <a class="button expand active first" href="dashboard-meal-1.html">DASHBOARD</a>
+          <a class="button expand active first" href="dashboard.html">DASHBOARD</a>
         </div>
         <div class="small-3 columns">
-          <a class="button expand" href="members-overview.html">MEMBERS</a>
+          <a class="button expand" href="member-list.html">MEMBERS</a>
         </div>
         <div class="small-3 columns">
           <a class="button expand" href="servers.html">SERVER CODES</a>
         </div>
         <div class="small-3 columns">
-          <a class="button expand last" href="reports.html">REPORTS</a>
+          <a class="button expand last" href="reports-servers.html">REPORTS</a>
         </div>
       </div>
     </div>
@@ -349,9 +349,17 @@
       <h2 id="addItemModal">Add Item</h2>
       <p class="lead">Add an item to this category. You can have a total of 3 items in each. You can also add a description, image and price.</p>
       <form class="row">
-        <div class="small-12 columns">
-          <label>Enter the item's name as it appears on you menu
+        <div class="small-12 medium-6 columns">
+          <label>Enter the item's name
             <input type="text">
+          </label>
+        </div>
+        <div class="small-12 medium-6 columns">
+          <label>Set the Point Value awarded for this item
+            <select>
+              <option>5 Points</option>
+              <option>10 Points</option>
+            </select>
           </label>
         </div>
         <div class="small-12 columns"> 
@@ -383,23 +391,31 @@
       <h2 id="editItemModal">Edit Item <small>Item One</small></h2>
       <p class="lead">Editing an item here will automatically update the item slot in it's category. <strong>REMEMBER: If you are swapping out an item, make sure to update all the fields.</strong></p>
       <form class="row">
-        <div class="small-12 columns">
-          <label>Enter the item's name as it appears on you menu
+        <div class="small-12 medium-6 columns">
+          <label>1. Enter the item's name as it appears on you menu
             <input type="text" value="Bob's Thick Wet Weiner">
           </label>
         </div>
+        <div class="small-12 medium-6 columns">
+          <label>2. Set the Point Value awarded for this item
+            <select>
+              <option>5 Points</option>
+              <option>10 Points</option>
+            </select>
+          </label>
+        </div>
         <div class="small-12 columns"> 
-          <label>Enter the item's price
+          <label>3. Enter the item's price
             <input type="text" value="7.00">
           </label>
         </div>
         <div class="small-12 columns">
-          <label>Add a description of the item
+          <label>4. Add a description of the item
             <textarea>The thickest and wettest dog you've ever seen or had in your mouth, it pulses and throbs</textarea>
           </label>
         </div>
         <div class="small-12 columns">
-          <label>Select a photo of the item
+          <label>5. Select a photo of the item
             <input type="file">
           </label>
         </div>
