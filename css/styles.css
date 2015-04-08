@@ -10693,3 +10693,8 @@ span.prefix {
 table input[type="text"] {
   margin-bottom: 0;
 }
+
+/* line 377, ../scss/_custom.scss */
+.help-list li {
+  font-size: 1.25em;
+}
